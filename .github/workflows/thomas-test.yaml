@@ -13,7 +13,7 @@ jobs:
         enable-AzPSSession: true
 
     - name: Run Azure CLI action
-      uses: YourName/CLI@test-branch
+      uses: thomas-temby/CLI@test-branch
       with:
         azcliversion: 2.30.0
         inlineScript: |
