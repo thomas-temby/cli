@@ -13,9 +13,9 @@ jobs:
         enable-AzPSSession: true
 
     - name: Run Azure CLI action
-      uses: thomas-temby/CLI@test-branch
+      uses: thomas-temby/cli@7d629a4a67a36145478c313ac171a8c24fb1a870
       with:
         azcliversion: 2.30.0
         inlineScript: |
           az account show
-#          az storage -h
+          az storage -h
